@@ -176,7 +176,7 @@ void displayMatrix(TSMatrix& S){
 }
 
 void read_struct(TSMatrix& tsmatrix){
-    ifstream reader("./graph2.bin", ios::in|ios::binary);
+    ifstream reader("./graph.bin", ios::in|ios::binary);
 
 	int t;
 	reader.read((char*)&t, sizeof(int));
